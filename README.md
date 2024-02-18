@@ -1,7 +1,7 @@
 # alx-system_engineering-devops
 
 
-    <p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/324/06AChAO.png" alt="" loading="lazy" style=""></p>
+<p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/324/06AChAO.png" alt="" loading="lazy" style=""></p>
 
 <h2>Background Context</h2>
 
