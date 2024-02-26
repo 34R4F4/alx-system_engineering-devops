@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Bash script that displays lines containing the bash word
+#thus allowing you to easily get the PID of your Bash process.
+#script that displays its PID to stdout, Alternative method is 'echo $$'
+
+(ps -p $$ | tail -n 1 | awk '{print $1}')
