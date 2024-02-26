@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# shellcheck disable=SC2009
 # Bash script that displays lines containing the bash word
 #thus allowing you to easily get the PID of your Bash process.
 #script that displays its PID to stdout, Alternative method is 'echo $$'
