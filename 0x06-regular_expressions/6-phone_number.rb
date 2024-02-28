@@ -10,7 +10,7 @@ end
 input_string = ARGV[0]
 
 # Regular expression pattern
-pattern = /[0-9]{10,10}/
+pattern = /^\d{10}$/
 
 # Find all occurrences of the pattern in the input string
 matches = input_string.scan(pattern)
