@@ -3,7 +3,6 @@
 
 # Check if an argument is provided
 if ARGV.empty?
-  puts "Usage: #{$PROGRAM_NAME} <string>"
   exit 1
 end
 
@@ -11,11 +10,14 @@ end
 input_string = ARGV[0]
 
 # Regular expression pattern
-pattern = /Scho*l/
+pattern = /School/
+
+# Find all occurrences of the pattern in the input string
+matches = input_string.scan(pattern)
 
 # Check if the input string matches the pattern
 if input_string.match?(pattern)
-  puts "The input string matches the pattern."
-else
-  puts "The input string does not match the pattern."
+  matches.each do |match|
+    print match
+  end
 end
