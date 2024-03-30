@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Dispaly all the listening ports And their PID's
+
+netstat -lp
+
+#  IP + port = socket.
+#    22 for SSH
+#    80 for HTTP
+#    443 for HTTPS
